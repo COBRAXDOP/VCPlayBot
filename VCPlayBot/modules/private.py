@@ -36,36 +36,36 @@ async def _human_time_duration(seconds):
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>✨ **Welcome {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 !**
+        f"""<b>✨ **Wᴇʟᴄᴏᴍᴇ♡︎ {message.from_user.first_name}** \n
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝐀𝐥𝐥𝐨𝐰 𝐘𝐨𝐮 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐎𝐧 𝐆𝐫𝐨𝐮𝐩 𝐓𝐡𝐨𝐫𝐮𝐠𝐡 𝐓𝐡𝐞 𝐍𝐞𝐰 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦'& 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭𝐬!**
 
-💡 **𝗙𝗶𝗻𝗱 𝗼𝘂𝘁 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗕𝗼𝘁'𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸 𝗯𝘆 𝗰𝗹𝗶𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘁𝗵𝗲 » 📚 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗯𝘂𝘁𝘁𝗼𝗻 !**
+⚡ **𝐅𝐢𝐧𝐝 𝐎𝐮𝐭 𝐀𝐥𝐥 𝐓𝐡𝐞 𝐁𝐨𝐭'& 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐀𝐧𝐝 𝐇𝐨𝐰 𝐓𝐡𝐞𝐲 𝐖𝐨𝐫𝐤 𝐁𝐲 𝐂𝐥𝐢𝐜𝐤𝐢𝐧𝐠 𝐎𝐧 𝐓𝐡𝐞 » 📚 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐁𝐮𝐭𝐭𝐨𝐧 !**
 
-❓ **𝗙𝗼𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗮𝗯𝗼𝘂𝘁 𝗮𝗹𝗹 𝗳𝗲𝗮𝘁𝘂𝗿𝗲 𝗼𝗳 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁, 𝗷𝘂𝘀𝘁 𝘁𝘆𝗽𝗲 /help**
+✨ **𝐅𝐨𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐀𝐛𝐨𝐮𝐭 𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐎𝐟 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭,𝐉𝐮𝐬𝐭 𝐓𝐲𝐩𝐞 /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐒𝐞𝐱𝐲 𝐆𝐫𝐨𝐮𝐩 ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "❓ How to use Me", callback_data="cbhowtouse")
+                        "❓ 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "📚 Commands", callback_data="cbcmds"
+                         "📚 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "🐍 𝐃𝐞𝐯'𝐬", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🔥 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐆𝐫𝐨𝐮𝐩", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "🔥 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "🧪 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 🧪", url="https://github.com/QueenArzoo/VCPlayBot"
                     )
                 ]
             ]
@@ -85,10 +85,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🔥 𝐆𝐫𝐨𝐮𝐩", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
             ]
@@ -98,7 +98,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>👋🏻 **Hello** {message.from_user.mention()}</b>
+        f"""<b>👋🏻 **𝐇𝐞𝐥𝐥𝐨** {message.from_user.mention()}</b>
 
 **Please press the button below to read the explanation and see the list of available commands !**
 
