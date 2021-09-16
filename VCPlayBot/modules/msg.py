@@ -15,7 +15,7 @@ f"""
 
 ⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 
-Join @Girls_And_Boys_Chatting
+Join @L0VExWORLD
 """,
 
 f"""
@@ -83,7 +83,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 3) Add bot as Channel admin with full perms
 4) Add @{ASSISTANT_NAME} to the channel as an admin.
 5) Simply send commands in your group. (remember to use /ytplay instead /play)
-Join @Girls_And_Boys_Chatting
+Join @L0VExWORLD
 """,
 
 f"""
@@ -106,7 +106,7 @@ f"""
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
-Join @Girls_And_Boys_Chatting
+Join @L0VExWORLD
 """,
 
 f"""
@@ -116,6 +116,6 @@ f"""
  - /broadcast <reply to message> - globally brodcast replied message to all chats
  - /pmpermit [on/off] - enable/disable pmpermit message
 *Sudo Users can execute any command in any groups
-Join @Girls_And_Boys_Chatting
+Join @L0VExWORLD
 """
       ]
