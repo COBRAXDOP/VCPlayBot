@@ -65,7 +65,7 @@ async def start_(client: Client, message: Message):
                         "🔥 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 🧪", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "🧪 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 🧪", url="https://t.me/xd_lif"
                     )
                 ]
             ]
